@@ -36,7 +36,7 @@ Create and iterate on a design for the system. As we introduce new requirements,
 - Monitoring
 - Logging: how much detail, levels, etc.
 - Deployment
-- Security
+- Security: Cross-Site Scripting (XSS)
 - Scaling: Redundancy
 - Database
 - Customer Flow (Plans for the future)
@@ -44,7 +44,8 @@ Create and iterate on a design for the system. As we introduce new requirements,
 - Prepare technical questions.
 
 #### Resources
-- https://github.com/donnemartin/system-design-primer
+- [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [Cross-Site Scripting (XSS)](https://owasp.org/www-project-top-ten/2017/A7_2017-Cross-Site_Scripting_(XSS))
 
 ### Coding
 
