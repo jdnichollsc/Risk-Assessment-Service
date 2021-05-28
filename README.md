@@ -19,7 +19,7 @@ Creating an imaginary product
 ### Behavioral questions
 - Negative feedback.
 - Other situations alidned with the previous values.
-- Sticky notes.
+- Prepare sticky notes.
 
 ## Project
 
