@@ -31,7 +31,7 @@ Creating an imaginary product
 
 Create and iterate on a design for the system. As we introduce new requirements, the design will evolve.
 
-- Performance: NewRelic, Kabana.
+- Performance: NewRelic, Kibana, etc.
 - Testing
 - Monitoring
 - Logging: how much detail, levels, etc.
