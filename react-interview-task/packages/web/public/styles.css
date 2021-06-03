@@ -1,0 +1,36 @@
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: left;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+img:hover {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+img.is-highlighted {
+  -webkit-animation:spin 1s linear infinite;
+  -moz-animation:spin 1s linear infinite;
+  animation:spin 1s linear infinite;
+}
+
+
+#root {
+  margin: 0 auto;
+  width: 720px;
+}

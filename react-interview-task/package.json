@@ -1,0 +1,29 @@
+{
+  "name": "frontend-challenge",
+  "version": "1.0.0",
+  "description": "Frontend coding challenge for Klarna",
+  "author": "Klarna",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:packager": "yarn workspace @frontend-challenge/native start",
+    "start:web": "yarn workspace @frontend-challenge/web start",
+    "start:ios": "yarn workspace @frontend-challenge/native ios",
+    "start:android": "yarn workspace @frontend-challenge/native android",
+    "test:web": "yarn workspace @frontend-challenge/web test",
+    "test:native": "yarn workspace @frontend-challenge/native test"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "@react-native-community/async-storage",
+      "react-native",
+      "react-native/**",
+      "react-native-dev-menu",
+      "react-native-svg",
+      "jetifier"
+    ]
+  }
+}
