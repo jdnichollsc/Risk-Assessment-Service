@@ -4,6 +4,8 @@ import GravatarList from "./GravatarList";
 import Header from "./Header";
 import { calculateNumberOfImages } from "./utils";
 
+import './styles.css';
+
 const App = () => {
   const [state, setState] = useState(() => {
     window.addEventListener("scroll", () => {
@@ -18,7 +20,7 @@ const App = () => {
   });
 
   return (
-    <div>
+    <div className='container'>
       <Header />
       <GravatarList state={state} />
     </div>

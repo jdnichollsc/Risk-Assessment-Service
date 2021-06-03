@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useCallback } from "react";
 
-import { gravatarUrl, IMAGE_SIZE } from "./utils";
+const Gravatar = ({ email, url }) => {
+  const onGravaterPress = useCallback((event) => {
+    event.target.classList.toggle("is-highlighted")
+    alert(email);
+  }, [email])
 
-const Gravatar = () => {
   return (
     <img
       alt="Gravatar"
-      src={gravatarUrl(IMAGE_SIZE)}
-      onClick={(event) => event.target.classList.toggle("is-highlighted")}
+      src={url}
+      onClick={onGravaterPress}
     />
   );
 };
