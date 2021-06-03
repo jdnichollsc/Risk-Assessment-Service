@@ -33,13 +33,13 @@ Create and iterate on a design for the system. As we introduce new requirements,
 
 - Performance: NewRelic, Kibana, etc.
 - Testing
-- Monitoring
+- Monitoring: Splunk
 - Logging: how much detail, levels, etc.
-- Deployment
-- Security: Cross-Site Scripting (XSS)
-- Scaling: Redundancy
-- Database
-- Customer Flow (Plans for the future)
+- Deployment: Ansible, Terraform, Jenkins, Docker and Kubernetes.
+- Security: Cross-Site Scripting (XSS).
+- Scaling (Redundancy / Consistency).
+- Database (Clusters / Sharding).
+- Customer Flow (Plans for the future).
 - Bottlenecks
 - Prepare technical questions.
 
