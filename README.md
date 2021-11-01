@@ -71,7 +71,7 @@ Create and iterate on a design for the system. As we introduce new requirements,
 #### Questions
 
 Key considerations:
-1. Define Actors/Stackerholders.
+1. Define Actors/Stakeholders.
   - Merchants.
   - Customers: anyone interested in purchasing their products.
   - Third party systems (sources of truth).
